@@ -23,8 +23,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.only(bottom: 16.0), // ボタンの下部に16.0の余白追加
                   child: ElevatedButton.icon(
                     /* 'スタート'ボタン */
-                    icon: Icon(Icons.skip_next),
-                    label: Text('スタート'),
+                    icon: Icon(Icons.skip_next), // slop_nextアイコンをボタンに設置
+                    label: Text('スタート'), // 可読性の為ラベルを併記
                     onPressed: () => print('ボタン押下'),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.brown, // ボタンの色を茶色に設定
